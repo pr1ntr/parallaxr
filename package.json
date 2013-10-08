@@ -1,0 +1,39 @@
+{
+  "name": "parallax engine",
+  "version": "0.1",
+  "description": "assortment of classes for easy parallax environment creation",
+  "main": "server.js",
+  "dependencies": {
+    "browserify": "~2.14.2",
+    "bundlr": "0.0.2",
+    "nib": "~0.9.0",
+    "express": "~3.2.4",
+    "node-uuid": "~1.4.0",
+    "socket.io": "~0.9.14",
+    "stylus": "~0.29.0",
+    "node-codein": "~1.0.3",
+    "underscore": "~1.4.2",
+    "backbone": "~1.0.0",
+    "ncp": "~0.4.2",
+    "coffee-script": "~1.6.2"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.3.3"
+  },
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pr1ntr/cx-build.git"
+  },
+  "keywords": [
+    "build",
+    "server",
+    "express",
+    "browserify"
+  ],
+  "author": "pr1ntr",
+  "license": "BSD"
+}

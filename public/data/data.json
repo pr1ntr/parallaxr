@@ -1,0 +1,105 @@
+
+
+{
+    "appName" : "Penny Dreadful"
+    ,"appId" : "##FBAPPIDHERE##"
+    ,"baseUrl" : ""
+    ,"copy" : {
+
+    }
+    ,"tileSets" : [
+        {
+            "name" : "background"
+            ,"offset" : "1"
+            ,"tiles" : [
+                {
+                    "assets" : {
+                        "src" : "/images/tiles/background/01.jpg"
+                    }
+                    ,"x" : 0
+                    ,"y" : 0
+                }
+                ,{
+                    "assets" : {
+                        "src" : "/images/tiles/background/02.jpg"
+                    }
+                    ,"x" : 400
+                    ,"y" : 0
+                }
+                ,{
+                    "assets" : {
+                        "src" : "/images/tiles/background/03.jpg"
+                    }
+                    ,"x" : 800
+                    ,"y" : 0
+                }
+                ,{
+                    "assets" : {
+                        "src" : "/images/tiles/background/04.jpg"
+                    }
+                    ,"x" : 1200
+                    ,"y" : 0
+                }
+                ,{
+                    "assets" : {
+                        "src" : "/images/tiles/background/05.jpg"
+                    }
+                    ,"x" : 1600
+                    ,"y" : 0
+                }
+                ,{
+                    "assets" : {
+                        "src" : "/images/tiles/background/06.jpg"
+                    }
+                    ,"x" : 2000
+                    ,"y" : 0
+                }
+            
+            ]
+        }
+        ,{
+            "name" : "characters"
+            ,"offset" : "1.1"
+            ,"tiles" : [
+                {
+                    "assets" : {
+                        "src" : "/images/tiles/characters/char_01.png"
+                    }                    
+                    ,"x" : 0
+                    ,"y" : 355
+                }
+                ,{
+                    "assets" : {
+                        "src" : "/images/tiles/characters/char_02.png"
+                    }
+                    ,"x" : 1695
+                    ,"y" : 42
+                }
+            
+            ]
+        }
+        ,{
+            "name" : "debris"
+            ,"offset" : "1.2"
+            ,"tiles" : [
+                {
+                    "assets" : {
+                        "src" : "/images/tiles/characters/char_01_splat.png"
+                    }                    
+                    ,"x" : 20
+                    ,"y" : 474
+                }
+                ,{
+                    "assets" : {
+                        "src" : "/images/tiles/characters/char_02_debris.png"
+                    }
+                    ,"x" : 1825
+                    ,"y" : 350
+                }
+            
+            ]
+        }
+
+    ]
+
+}
